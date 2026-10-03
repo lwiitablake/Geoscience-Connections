@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore connections between college majors and geosciences, with concrete tasks, evidence notes, and an annotated bibliography.">
+  <title>Geoscience Connections | Explore by major</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a href="#explorer" class="skip-link">Skip to connections</a>
+<header class="masthead"><a href="./" class="brand"><span class="brand-mark" aria-hidden="true">G</span> Geoscience Connections</a><span class="edition">A cross-disciplinary reference</span></header>
+<main>
+  <section class="intro" aria-labelledby="page-title">
+    <div><p class="eyebrow">MAJORS · DISCIPLINES · EVERYDAY WORK</p><h1 id="page-title">Where does your field meet Earth science?</h1><p class="lede">Explore concrete connections through research, professional decisions, materials, and culture. A connection can be meaningful without being part of every task in a field.</p></div>
+    <div class="intro-meta"><strong id="dataset-count">120 connections</strong><span id="source-count">35 annotated references</span><a href="#about">About this collection</a></div>
+  </section>
+  <details id="about" class="about"><summary>What this table explains, and how to read the evidence</summary><div class="about-content"><p>This is a broad starting map, not a complete catalog of majors. “Geosciences” includes geology, water, oceans, climate, soils, and related Earth-observation methods. Each entry names the specific connection.</p><div class="evidence-key"><p><strong>Documented connection</strong><br>The source explicitly describes the relationship, method, or project. Task wording may be adapted.</p><p><strong>Illustrative application</strong><br>The source supports the underlying idea; its application to the named major or task is proposed here.</p></div><h2>Scope and use</h2><div id="guide-content"></div></div></details>
+  <section id="explorer" aria-label="Explore connections" tabindex="-1">
+    <form id="filters" class="filters" role="search">
+      <div class="search-field"><label for="search">Search connections</label><input id="search" type="search" placeholder="Try music, groundwater, nursing…" autocomplete="off"></div>
+      <div><label for="family">Field family</label><select id="family"><option value="">All families</option></select></div>
+      <div><label for="pathway">Connection pathway</label><select id="pathway"><option value="">All pathways</option></select></div>
+      <div><label for="evidence">Evidence</label><select id="evidence"><option value="">All evidence types</option></select></div>
+      <button type="button" id="reset" class="secondary">Reset filters</button>
+    </form>
+    <div class="workspace-toolbar"><p id="result-count" role="status" aria-live="polite" aria-atomic="true"></p><div class="view-controls"><label for="sort">Sort</label><select id="sort"><option value="original">Field family</option><option value="major">Major A–Z</option></select><button type="button" id="toggle-bib" aria-expanded="true" aria-controls="bibliography">Hide bibliography</button></div></div>
+    <div class="workspace" id="workspace">
+      <section class="connection-pane" aria-labelledby="connections-title"><div class="pane-heading"><h2 id="connections-title">Connections</h2><span>Choose a reference ID to see its annotation. <a href="#bibliography-title" id="jump-bib">Jump to bibliography</a></span></div>
+        <div id="table-scroll" class="table-scroll" tabindex="0" role="region" aria-label="Connections table, scroll to explore all results">
+          <table role="table"><caption class="sr-only">Connections between majors, tasks, and geosciences. All details for each matching connection are shown.</caption><thead role="rowgroup"><tr role="row"><th role="columnheader" scope="col">Major &amp; discipline</th><th role="columnheader" scope="col">Task &amp; Earth science</th><th role="columnheader" scope="col">The connection</th><th role="columnheader" scope="col">Evidence &amp; references</th></tr></thead><tbody role="rowgroup" id="connections-body"></tbody></table>
+          <div id="empty" class="empty" hidden><h3>No connections match those filters.</h3><p>Try a broader term or reset the filters to see the full collection.</p><button type="button" id="empty-reset">Reset filters</button></div>
+        </div>
+      </section>
+      <aside id="bibliography" class="bibliography" aria-labelledby="bibliography-title">
+        <div class="pane-heading"><h2 id="bibliography-title" tabindex="-1">Annotated bibliography</h2><span>Sources, contributions, and limits</span></div>
+        <div class="bib-controls"><label for="reference-search">Search references</label><input id="reference-search" type="search" placeholder="Author, title, source ID…"><label class="checkbox-label"><input id="relevant-only" type="checkbox"> Only sources for visible connections</label><p id="bib-count" role="status" aria-live="polite"></p></div>
+        <div id="references" class="reference-scroll" tabindex="0" role="region" aria-label="Annotated references, scroll to read all sources"></div>
+      </aside>
+    </div>
+  </section>
+  <footer><p>Prepared October 3, 2026. References retain their original authorship. Connection wording and categories are an AI-assisted synthesis.</p><p>Sources may support the underlying concept without documenting the exact proposed task. Review the evidence labels and access notes.</p></footer>
+</main>
+<noscript><p class="noscript">JavaScript is required to display and filter this collection. Enable JavaScript, or read the records directly in data.js.</p></noscript>
+</body>
+</html>
