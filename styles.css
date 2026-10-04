@@ -29,3 +29,4 @@
 /* Keep absolutely positioned accessible text inside its scrolling panel.
    Otherwise offscreen source-link labels can extend the document's scroll area. */
 .table-scroll,.reference-scroll{position:relative}
+.project-links{display:flex;flex-wrap:wrap;gap:1rem;margin:1rem 0}.map-link{display:inline-block;min-height:44px;padding:.5rem 0;font-size:.875rem}

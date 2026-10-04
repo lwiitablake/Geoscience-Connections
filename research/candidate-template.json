@@ -1,0 +1,32 @@
+{
+  "id": "CAND-YYYYMMDD-001",
+  "status": "unreviewed",
+  "proposedEvidence": "Exploratory idea",
+  "dateProposed": "YYYY-MM-DD",
+  "family": "",
+  "major": "",
+  "discipline": "",
+  "task": "",
+  "anchor": "",
+  "connection": "",
+  "pathway": "",
+  "whyPlausible": "",
+  "whatRemainsUnverified": "",
+  "sources": [],
+  "sourceRecordExample": {
+    "url": "",
+    "citation": "",
+    "publishedOrUpdatedDate": null,
+    "accessedDate": null,
+    "reviewScope": "not reviewed / abstract / webpage / full text",
+    "claimSupported": "",
+    "limitations": "",
+    "reuseTerms": ""
+  },
+  "relatedConnectionIds": [],
+  "duplicateCheck": "",
+  "reviewer": null,
+  "reviewDate": null,
+  "decisionReason": "",
+  "publishedConnectionId": null
+}

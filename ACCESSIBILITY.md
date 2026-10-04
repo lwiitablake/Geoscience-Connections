@@ -70,3 +70,6 @@ Sources consulted October 3, 2026. No ADA, Section 508, or Section 503 legal com
 
 ## Targeted follow-up browser verification — October 3, 2026
 The scrolling repair was checked in a real browser at desktop and 320px mobile widths, including document/footer boundaries, horizontal overflow, citation focus and return, and bibliography visibility. See FIX-NOTES.md for measurements and scope. Earlier statements that no browser checks were completed describe the original build; this targeted follow-up does not complete the full release review or establish conformance.
+
+## Map follow-up — October 4, 2026
+The new map uses ordered HTML lists, native links and details/summary source disclosures, persistent filter labels, and a live result count. Keyboard source disclosure, filtering, table-to-map navigation, and a 320px mobile overflow check were performed; see MAP-UPDATE.md. Full screen-reader, zoom, text-spacing, and conformance review remains outstanding.

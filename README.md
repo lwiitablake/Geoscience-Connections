@@ -52,3 +52,6 @@ The table is an AI-assisted synthesis, not an exhaustive catalog or a validated 
 
 Original educational content and collection arrangement are licensed under CC BY-NC-SA 4.0 to the extent the publisher holds copyright or similar rights. See licensing.html and LICENSE-CONTENT.md for scope and attribution. Third-party sources and software code are excluded from this content license. The spreadsheet is the source of this edition, but it is not required to run the website.
 
+
+## Connection maps and growing the collection
+Open map.html for searchable visual maps generated directly from data.js, or follow View connection map beside any table record's references. Export the current view as Mermaid; connections-all.mmd is the initial full snapshot. Open updates.html for discovery and review guidance. See MAP-UPDATE.md for implementation, verification, and the weekly review setup. Research candidates belong under research/ and do not automatically enter the published dataset.

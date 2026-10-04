@@ -1,0 +1,7 @@
+Continue this existing Geoscience Connections website project. Read AGENTS.md, CODEX_HANDOFF.md, README.md and ACCESSIBILITY.md first.
+
+Preserve the simple dependency-free website, all 120 connections and 35 annotated references, and the ability to read connections and bibliography together or hide the bibliography. Mobile friendliness and accessibility are core requirements.
+
+First run the existing checks and inspect the site in a real browser. Complete as much of the outstanding mobile, keyboard, zoom, text-spacing and accessibility review as your environment supports, fix demonstrated problems, and report exactly what was verified and what remains untested. Do not claim full legal or WCAG conformance without evidence.
+
+I will handle GitHub. Do not deploy, publish, create a remote repository or push. Keep the project portable and avoid unnecessary frameworks or build steps.
