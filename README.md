@@ -50,4 +50,5 @@ No analytics, cookies, external fonts, third-party scripts, or network requests 
 
 The table is an AI-assisted synthesis, not an exhaustive catalog or a validated instrument. Sources retain their original authorship and terms. The bibliography distinguishes reviewed webpages from publication abstracts or summaries; do not describe all referenced works as fully reviewed.
 
-No blanket license has been added. Choose a license for your website code and your original content before public distribution if desired; a repository license does not override the terms of third-party sources. The spreadsheet is the source of this edition, but it is not required to run the website.
+Original educational content and collection arrangement are licensed under CC BY-NC-SA 4.0 to the extent the publisher holds copyright or similar rights. See licensing.html and LICENSE-CONTENT.md for scope and attribution. Third-party sources and software code are excluded from this content license. The spreadsheet is the source of this edition, but it is not required to run the website.
+

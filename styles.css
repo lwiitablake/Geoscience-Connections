@@ -25,3 +25,7 @@
 .table-scroll:focus-visible,.reference-scroll:focus-visible,.reference-card:focus-visible{outline-offset:-3px}
 
 .masthead a:focus-visible{outline-color:white}
+
+/* Keep absolutely positioned accessible text inside its scrolling panel.
+   Otherwise offscreen source-link labels can extend the document's scroll area. */
+.table-scroll,.reference-scroll{position:relative}

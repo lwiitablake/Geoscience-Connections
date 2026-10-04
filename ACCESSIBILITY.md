@@ -67,3 +67,6 @@ Browser execution was unavailable in the build environment: the browser binary d
    Describes disability employment nondiscrimination and affirmative-action responsibilities of covered federal contractors and subcontractors. Section 503 is not a standalone website coding specification. This educational site has no employment application workflow; employer policies, accommodations and other obligations cannot be fulfilled or certified by these files.
 
 Sources consulted October 3, 2026. No ADA, Section 508, or Section 503 legal compliance guarantee is made.
+
+## Targeted follow-up browser verification — October 3, 2026
+The scrolling repair was checked in a real browser at desktop and 320px mobile widths, including document/footer boundaries, horizontal overflow, citation focus and return, and bibliography visibility. See FIX-NOTES.md for measurements and scope. Earlier statements that no browser checks were completed describe the original build; this targeted follow-up does not complete the full release review or establish conformance.
