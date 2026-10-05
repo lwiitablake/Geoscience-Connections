@@ -1,11 +1,11 @@
 # Upload the October 5, 2026 website update
 
-1. Extract Geoscience-Connections-2026-10-05-organic.zip. Open index.html locally to review the release.
+1. Extract Geoscience-Connections-2026-10-05-canvas.zip. Open index.html locally to review the release.
 2. Open https://github.com/lwiitablake/Geoscience-Connections and select the branch/folder that currently publishes your site.
 3. Choose Add file > Upload files. Drag in the extracted contents, including the research folder. Keep index.html at the publishing root, alongside data.js and styles.css. Do not upload the ZIP or nest the containing folder inside the repository.
-4. Review the changed files. Suggested commit message: Update collection to 122 connections and 37 references. Commit through your normal workflow; if you use a review branch, merge its pull request when ready.
+4. Review the changed files. Suggested commit message: Update collection to 126 connections and 40 references. Commit through your normal workflow; if you use a review branch, merge its pull request when ready.
 5. Wait for the Pages deployment to finish, then open https://lwiitablake.github.io/Geoscience-Connections/. Refresh with Ctrl+F5 if old content appears.
-6. Verify 122 connections and 37 annotated references. Search G121 and G122, open their source annotations, and follow View connection map. Check the license footer and the New connections and updates page.
+6. Verify 126 connections and 40 annotated references. Search G121 and G122, open their source annotations, and follow View connection map. Check the license footer and the New connections and updates page.
 
 The package contains the complete runtime site, current upload instructions, historical change notes, and the public review workflow/template. Private working candidates, reports, the original workbook, and development tools remain in your working project. Preserve existing repository files such as workflows or provenance materials unless you intentionally change them.
 
@@ -17,3 +17,5 @@ For this edition, also upload tree.html, tree.css, and tree.js. From the homepag
 
 This radial-web package also includes outline.html, outline.css, and outline.js. Upload these alongside the tree files. The main navigation now says Explore the radial connection web. Use Find a node to test G121 and R36, and Fit whole web to return to the overview.
 
+
+Current edition: verify 126 connections and 40 references. Open the web, click Geosciences, then use Find a node for G126 and follow R40. Ordinary node clicks should open a popup without moving the camera.

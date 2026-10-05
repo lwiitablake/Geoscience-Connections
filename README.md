@@ -1,6 +1,6 @@
 # Geoscience Connections
 
-A small, standalone website based on **Geoscience_Connections_Across_Majors.xlsx**. The October 5 edition includes 122 connections, 37 annotated references, and 24 scope/guide entries. The original workbook is a provenance snapshot of the first 120 connections and 35 references; it does not include the two new website records.
+A small, standalone website based on **Geoscience_Connections_Across_Majors.xlsx**. The October 5 edition includes 126 connections, 40 annotated references, and 24 scope/guide entries. The original workbook is a provenance snapshot of the first 120 connections and 35 references; it does not include the two new website records.
 
 ## Open it
 
@@ -64,3 +64,6 @@ Open tree.html for one connected, expandable hierarchy of all field families, co
 
 ## Radial canvas
 Open tree.html for the radial web with Geosciences at its center. Each resource is a shared node, with links to every citing connection. Pan and zoom within bounds derived from the outermost nodes. Select a node for full details, or open outline.html for the readable hierarchy. Existing tree.html#tree-G121 and tree.html#resource-R36 links remain supported.
+
+## Page-sized canvas edition
+The graph fills the remaining page beneath a compact toolbar. Click a node to open details beneath it without recentering. Find a node navigates deliberately. Dragging starts after a small movement threshold; dragging and wheel zoom dismiss the popup. Escape and the close button dismiss it. The visual key collapses on narrow screens. Added G123–G126 and R38–R40; source scopes and evidence labels are recorded in the annotations.

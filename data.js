@@ -1711,6 +1711,62 @@ window.GEOSCIENCE_DATA = {
       "references": [
         "R37"
       ]
+    },
+    {
+      "id": "G123",
+      "family": "Natural sciences",
+      "major": "Molecular ecology",
+      "discipline": "Environmental DNA",
+      "task": "Combine biological traces with water-monitoring observations",
+      "anchor": "Hydrology; freshwater systems; remote sensing",
+      "connection": "USGS describes integrating eDNA with water sensors and satellite imagery to monitor harmful algal blooms.",
+      "pathway": "Research/method",
+      "evidence": "Documented connection",
+      "references": [
+        "R38"
+      ]
+    },
+    {
+      "id": "G124",
+      "family": "Engineering and design",
+      "major": "Robotics",
+      "discipline": "Environmental instrumentation",
+      "task": "Plan requirements for an automated stream sampler",
+      "anchor": "Hydrology; water-quality monitoring",
+      "connection": "Use documented robotic eDNA sampling as context for a proposed design exercise addressing sampling location and timing.",
+      "pathway": "Professional decision",
+      "evidence": "Illustrative application",
+      "references": [
+        "R38"
+      ]
+    },
+    {
+      "id": "G125",
+      "family": "Engineering and design",
+      "major": "Electrical engineering",
+      "discipline": "Satellite signal processing",
+      "task": "Estimate surface soil moisture using reflected navigation signals",
+      "anchor": "GNSS reflectometry; land-surface hydrology",
+      "connection": "The CYGNSS soil-moisture product links reflected navigation signals with estimates of water in surface soil.",
+      "pathway": "Research/method",
+      "evidence": "Documented connection",
+      "references": [
+        "R39"
+      ]
+    },
+    {
+      "id": "G126",
+      "family": "Engineering and design",
+      "major": "Geomatics",
+      "discipline": "Satellite geodesy",
+      "task": "Combine ground-motion and gravity observations to investigate groundwater",
+      "anchor": "Geodesy; hydrogeology",
+      "connection": "A NASA-described study combines GPS, GRACE, and water-balance estimates to investigate Sierra Nevada–Central Valley groundwater exchange.",
+      "pathway": "Research/method",
+      "evidence": "Documented connection",
+      "references": [
+        "R40"
+      ]
     }
   ],
   "references": [
@@ -2046,6 +2102,33 @@ window.GEOSCIENCE_DATA = {
       "annotation": "Pigment identification and microstructure inform dating; petrographic analysis also examines the backing.",
       "limitations": "Identifying lazurite alone does not establish natural pigment, geological provenance, or age. The authors use combined evidence. Underlying analytical datasets and cited studies were not independently evaluated.",
       "access": "HTML abstract, citation, pigment-analysis and underlying-structure sections; not a full independent study review. Accessed October 5, 2026."
+    },
+    {
+      "id": "R38",
+      "citation": "U.S. Geological Survey. (2025, September 11). eDNA for Water-Quality Monitoring and Public Health Protection.",
+      "url": "https://www.usgs.gov/programs/biological-threats-and-invasive-species-research-program/science/edna-water-quality",
+      "type": "Agency research-program account",
+      "annotation": "Describes eDNA monitoring of stream organisms and harmful algae, including robotic samplers and integration with satellite imagery and water sensors.",
+      "limitations": "Program-level account; linked studies and sampling hardware were not independently evaluated. Detection does not by itself establish water safety. A proposed sampler-design task is illustrative.",
+      "access": "Stream-health and algal-bloom webpage sections reviewed October 5, 2026; linked studies and media not reviewed."
+    },
+    {
+      "id": "R39",
+      "citation": "NASA PO.DAAC. (2020, November 17). Animation: CYGNSS Level 3 Soil Moisture from UCAR/CU Version 1.0 (March 2017 and August 2020).",
+      "url": "https://podaac.jpl.nasa.gov/animations/CYGNSS-Level-3-Soil-Moisture-from-UCAR/CU-Version-1.0",
+      "type": "Agency dataset visualization description",
+      "annotation": "Describes a surface-soil moisture product derived from CYGNSS GNSS-reflectometry observations.",
+      "limitations": "Description of a historical product; algorithm accuracy, current versions, and agricultural decision performance were not assessed.",
+      "access": "Explanatory webpage text reviewed October 5, 2026; animation and dataset not analyzed."
+    },
+    {
+      "id": "R40",
+      "citation": "Rasmussen, C. (2023, January 23). NASA Measures Underground Water Flowing From Sierra to Central Valley. NASA Jet Propulsion Laboratory.",
+      "url": "https://www.nasa.gov/missions/grace/nasa-measures-underground-water-flowing-from-sierra-to-central-valley/",
+      "type": "Agency account of a research study",
+      "annotation": "Explains combining GPS surface-motion observations, GRACE gravity measurements, and water-balance modeling to investigate groundwater exchange.",
+      "limitations": "Regional study described by NASA; underlying paper and datasets not independently reviewed. Satellite gravity does not directly measure individual wells.",
+      "access": "Article methods explanation reviewed October 5, 2026. Published January 23, 2023; page update September 29, 2023."
     }
   ],
   "guide": [
