@@ -61,3 +61,6 @@ Added G121/R36 (ocean-image sonification) and G122/R37 (art conservation and min
 
 ## Full connection tree
 Open tree.html for one connected, expandable hierarchy of all field families, connections, topics, and cited resources. Table records and bibliography annotations link to their tree locations. Resource nodes link back to every citing branch. The tree reads data.js directly, so it grows with the collection.
+
+## Radial canvas
+Open tree.html for the radial web with Geosciences at its center. Each resource is a shared node, with links to every citing connection. Pan and zoom within bounds derived from the outermost nodes. Select a node for full details, or open outline.html for the readable hierarchy. Existing tree.html#tree-G121 and tree.html#resource-R36 links remain supported.
