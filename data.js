@@ -1,4 +1,3 @@
-// Edit the records below to update the site. Keep reference IDs unique.
 window.GEOSCIENCE_DATA = {
   "title": "Geoscience Connections",
   "date": "2026-10-03",
@@ -1684,6 +1683,34 @@ window.GEOSCIENCE_DATA = {
       "references": [
         "R32"
       ]
+    },
+    {
+      "id": "G121",
+      "family": "Arts and media",
+      "major": "Music",
+      "discipline": "Data sonification",
+      "task": "Turn satellite ocean-color patterns into musical notes",
+      "anchor": "Oceanography; Earth observation",
+      "connection": "NASA documents a project translating ocean imagery into music.",
+      "pathway": "Cultural/interpretive",
+      "evidence": "Documented connection",
+      "references": [
+        "R36"
+      ]
+    },
+    {
+      "id": "G122",
+      "family": "Arts and media",
+      "major": "Art conservation",
+      "discipline": "Technical art history",
+      "task": "Use pigment mineralogy to investigate an artwork's age",
+      "anchor": "Mineralogy; petrographic analysis",
+      "connection": "The Getty Peacock study combines material analysis and historical evidence to reassess a painting's age.",
+      "pathway": "Research/method",
+      "evidence": "Documented connection",
+      "references": [
+        "R37"
+      ]
     }
   ],
   "references": [
@@ -2001,6 +2028,24 @@ window.GEOSCIENCE_DATA = {
       "annotation": "Documents artistic uses of satellite and drone imagery while explaining Earth-surface features. Provides a direct visual-art and Earth-observation example.",
       "limitations": "Color treatments can be interpretive or use nonvisible wavelengths; images should not automatically be read as natural-color photographs.",
       "access": "Project webpage reviewed."
+    },
+    {
+      "id": "R36",
+      "citation": "Olson, M. (2022, June 8). Hear 'Sounds of the Sea' in Ocean Scientists' Music Project. NASA.",
+      "url": "https://www.nasa.gov/science-research/earth-science/sounds-of-the-sea/",
+      "type": "First-party agency project account",
+      "annotation": "Ocean-image color channels were rescaled and mapped to notes.",
+      "limitations": "Designed sonification, not recorded ocean sound. No accessibility or learning-outcome validation is claimed. Audio, software, and educational effectiveness were not tested.",
+      "access": "Webpage text, particularly project description and methods; no media playback. Accessed October 5, 2026."
+    },
+    {
+      "id": "R37",
+      "citation": "Lapatin, K., Svoboda, M., Schiano, S., Ganio, M., & Trentelman, K. (2026). The Getty Peacock Fresco: Unraveling Its History Through Technical and Historical Investigations. Getty Research Journal, 21. https://doi.org/10.59491/BTBV8023",
+      "url": "https://www.getty.edu/publications/getty-research-journal/21/the-getty-peacock-fresco/",
+      "type": "Peer-reviewed technical art-history study",
+      "annotation": "Pigment identification and microstructure inform dating; petrographic analysis also examines the backing.",
+      "limitations": "Identifying lazurite alone does not establish natural pigment, geological provenance, or age. The authors use combined evidence. Underlying analytical datasets and cited studies were not independently evaluated.",
+      "access": "HTML abstract, citation, pigment-analysis and underlying-structure sections; not a full independent study review. Accessed October 5, 2026."
     }
   ],
   "guide": [

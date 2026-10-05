@@ -73,3 +73,6 @@ The scrolling repair was checked in a real browser at desktop and 320px mobile w
 
 ## Map follow-up — October 4, 2026
 The new map uses ordered HTML lists, native links and details/summary source disclosures, persistent filter labels, and a live result count. Keyboard source disclosure, filtering, table-to-map navigation, and a 320px mobile overflow check were performed; see MAP-UPDATE.md. Full screen-reader, zoom, text-spacing, and conformance review remains outstanding.
+
+## Full tree follow-up — October 5, 2026
+The tree uses nested lists, native family disclosures, resource disclosures, textual evidence status, jump controls, and focusable branch destinations. Browser checks verified 122 branches, 37 resources, 12 families, unique DOM IDs, no broken local anchors, collapse/jump expansion, resource backlinks, keyboard disclosure and navigation, and no horizontal overflow at a 320px viewport. Screen-reader, text-spacing, zoom, and formal conformance reviews remain outstanding.

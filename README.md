@@ -1,6 +1,6 @@
 # Geoscience Connections
 
-A small, standalone website based on **Geoscience_Connections_Across_Majors.xlsx**. Includes all 120 connections, all 35 annotated references, and all 24 scope/guide entries from the supplied workbook.
+A small, standalone website based on **Geoscience_Connections_Across_Majors.xlsx**. The October 5 edition includes 122 connections, 37 annotated references, and 24 scope/guide entries. The original workbook is a provenance snapshot of the first 120 connections and 35 references; it does not include the two new website records.
 
 ## Open it
 
@@ -55,3 +55,9 @@ Original educational content and collection arrangement are licensed under CC BY
 
 ## Connection maps and growing the collection
 Open map.html for searchable visual maps generated directly from data.js, or follow View connection map beside any table record's references. Export the current view as Mermaid; connections-all.mmd is the initial full snapshot. Open updates.html for discovery and review guidance. See MAP-UPDATE.md for implementation, verification, and the weekly review setup. Research candidates belong under research/ and do not automatically enter the published dataset.
+
+## October 5 content release
+Added G121/R36 (ocean-image sonification) and G122/R37 (art conservation and mineral analysis). See RELEASE-2026-10-05.md for review decisions and GITHUB-UPLOAD.md for publishing instructions. The exploratory stratigraphic-score idea remains outside the published dataset.
+
+## Full connection tree
+Open tree.html for one connected, expandable hierarchy of all field families, connections, topics, and cited resources. Table records and bibliography annotations link to their tree locations. Resource nodes link back to every citing branch. The tree reads data.js directly, so it grows with the collection.
